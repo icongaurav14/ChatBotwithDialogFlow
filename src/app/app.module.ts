@@ -3,15 +3,19 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { ChatModule } from './chat/chat.module';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
     AppComponent
+    
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ChatModule,
     HttpModule
   ],
   providers: [],
